@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>daisey ui</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    hea
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>daisy ui component useing</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex items-center justify-between max-w-screen-xl mx-auto my-8"
+      >
+        <div>
+          <img src="images/logo2.png" />
+        </div>
+        <ul class="flex space-x-3 md:space-x-12">
+          <li class="text-xl font-semibold text-gray-600">Home</li>
+          <li class="text-xl font-semibold text-gray-600">Service</li>
+          <li class="text-xl font-semibold text-gray-600">class</li>
+          <li class="text-xl font-semibold text-gray-600">blog</li>
+          <li class="text-xl font-semibold text-gray-600">Contact Us</li>
+        </ul>
+        <button class="btn text-white bg-[#B68C5A]">Free consultaion</button>
+      </nav>
+
+      <div
+        class="hero bg-cover bg-center max-w-screen-xl h-[550px] rounded-2xl mx-auto my-8"
+        style="
+          background-image: url(images/banner.png);
+        "
+      >
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-neutral-content text-center">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Lorem ipsum dolor sit amet.
+            </h1>
+            <p class="mb-5">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+             <div class="space-x-3">
+                <input type="text" placeholder="Sarch your service" class="input input-bordered w-full max-w-xs" />
+                <button class="btn text-white px-9 text-md font-semibold bg-[#B68C5A]">Serch</button>
+             </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
